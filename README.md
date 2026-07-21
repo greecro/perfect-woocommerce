@@ -41,13 +41,13 @@ A single bash script that sets up a hardened, high-performance WooCommerce shop 
 ### One-line install (directly from GitHub)
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/djanzin/perfect-woocommerce/main/install-woocommerce.sh -o /tmp/install-wc.sh && sudo bash /tmp/install-wc.sh
+curl -fsSL https://raw.githubusercontent.com/greecro/perfect-woocommerce/main/install-woocommerce.sh -o /tmp/install-wc.sh && sudo bash /tmp/install-wc.sh
 ```
 
 With flags (non-interactive):
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/djanzin/perfect-woocommerce/main/install-woocommerce.sh -o /tmp/install-wc.sh && sudo bash /tmp/install-wc.sh --domain example.com --email admin@example.com --ssl --currency EUR --country DE
+curl -fsSL https://raw.githubusercontent.com/greecro/perfect-woocommerce/main/install-woocommerce.sh -o /tmp/install-wc.sh && sudo bash /tmp/install-wc.sh --domain example.com --email admin@example.com --ssl --currency EUR --country DE
 ```
 
 The script will interactively ask for:
@@ -127,7 +127,7 @@ Database backups are stored in:
 ### Update
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/djanzin/perfect-woocommerce/main/update-woocommerce.sh -o /tmp/update-wc.sh && sudo bash /tmp/update-wc.sh
+curl -fsSL https://raw.githubusercontent.com/greecro/perfect-woocommerce/main/update-woocommerce.sh -o /tmp/update-wc.sh && sudo bash /tmp/update-wc.sh
 ```
 
 With flags:
@@ -156,7 +156,7 @@ The update script automatically runs a **WooCommerce database migration** after 
 Removes everything installed by this script — WordPress, WooCommerce, Nginx, PHP-FPM, MariaDB, Redis, Fail2ban, WP-CLI, phpMyAdmin, FileBrowser, SSL certificates, cron jobs (including Action Scheduler) and swap. Runs without any prompts.
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/djanzin/perfect-woocommerce/main/reset-woocommerce.sh -o /tmp/reset-wc.sh && sudo bash /tmp/reset-wc.sh
+curl -fsSL https://raw.githubusercontent.com/greecro/perfect-woocommerce/main/reset-woocommerce.sh -o /tmp/reset-wc.sh && sudo bash /tmp/reset-wc.sh
 ```
 
 Use `--english` for English output:
@@ -202,13 +202,13 @@ Ein einzelnes Bash-Script, das einen abgesicherten, leistungsstarken WooCommerce
 ### Ein-Befehl-Installation (direkt von GitHub)
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/djanzin/perfect-woocommerce/main/install-woocommerce.sh -o /tmp/install-wc.sh && sudo bash /tmp/install-wc.sh
+curl -fsSL https://raw.githubusercontent.com/greecro/perfect-woocommerce/main/install-woocommerce.sh -o /tmp/install-wc.sh && sudo bash /tmp/install-wc.sh
 ```
 
 Mit Flags (nicht-interaktiv):
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/djanzin/perfect-woocommerce/main/install-woocommerce.sh -o /tmp/install-wc.sh && sudo bash /tmp/install-wc.sh --domain example.com --email admin@example.com --ssl --currency EUR --country DE
+curl -fsSL https://raw.githubusercontent.com/greecro/perfect-woocommerce/main/install-woocommerce.sh -o /tmp/install-wc.sh && sudo bash /tmp/install-wc.sh --domain example.com --email admin@example.com --ssl --currency EUR --country DE
 ```
 
 Das Script fragt interaktiv nach:
@@ -288,7 +288,7 @@ Datenbank-Backups befinden sich in:
 ### Update
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/djanzin/perfect-woocommerce/main/update-woocommerce.sh -o /tmp/update-wc.sh && sudo bash /tmp/update-wc.sh
+curl -fsSL https://raw.githubusercontent.com/greecro/perfect-woocommerce/main/update-woocommerce.sh -o /tmp/update-wc.sh && sudo bash /tmp/update-wc.sh
 ```
 
 Mit Flags:
@@ -317,7 +317,7 @@ Das Update-Script führt nach Plugin-Updates automatisch eine **WooCommerce Date
 Entfernt alles was dieses Script installiert hat — WordPress, WooCommerce, Nginx, PHP-FPM, MariaDB, Redis, Fail2ban, WP-CLI, phpMyAdmin, FileBrowser, SSL-Zertifikate, Cron-Jobs (inkl. Action Scheduler) und Swap. Läuft ohne Rückfragen durch.
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/djanzin/perfect-woocommerce/main/reset-woocommerce.sh -o /tmp/reset-wc.sh && sudo bash /tmp/reset-wc.sh
+curl -fsSL https://raw.githubusercontent.com/greecro/perfect-woocommerce/main/reset-woocommerce.sh -o /tmp/reset-wc.sh && sudo bash /tmp/reset-wc.sh
 ```
 
 Mit `--english` für englische Ausgabe:
